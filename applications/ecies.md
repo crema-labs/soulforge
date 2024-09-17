@@ -39,17 +39,17 @@ The project aims to optimize the ECIES implementation for decentralized environm
 
 This project brings several unique contributions to the Circom ecosystem:
 
-1. ZKP-Enabled ECIES: It provides a full implementation of ECIES with integrated Zero-Knowledge Proofs, allowing for provable encryption without revealing message contents. This is particularly valuable for decentralized applications requiring secure, verifiable communication.
+1. **ZKP-Enabled ECIES**: It provides a full implementation of ECIES with integrated Zero-Knowledge Proofs, allowing for provable encryption without revealing message contents. This is particularly valuable for decentralized applications requiring secure, verifiable communication.
 
-2. Comprehensive Cryptographic Primitives Suite: By implementing not just ECIES, but also its component parts (HMAC, HKDF, AES-CTR) in Circom, the project provides a broader cryptographic toolkit for the ecosystem.
+2. **Comprehensive Cryptographic Primitives Suite**: By implementing not just ECIES, but also its component parts (HMAC, HKDF, AES-CTR) in Circom, the project provides a broader cryptographic toolkit for the ecosystem.
 
-3. Optimized and ready for production: The project aims to optimize the implementation to reduce the number of constraints and operations, making it more efficient for use in ZKP circuits right out of the box. Crema team will be ready to resolve and review issues ASAP in the entire suite.
+3. **Optimized and ready for production**: The project aims to optimize the implementation to reduce the number of constraints and operations, making it more efficient for use in ZKP circuits right out of the box. Crema team will be ready to resolve and review issues ASAP in the entire suite.
 
-4. Use Case Demonstrations: The project plans to implement practical use cases like a ZK Vanity Address Generator, showcasing how ECIES with ZKP can be applied in real-world scenarios. The use case, Zanity, will also implement mining algorithm that will be benchmarked again Profanity v2 from 1Inch which was aimed at outsourcing vanity address generation safely.
+4. **Use Case Demonstrations**: The project plans to implement practical use cases like a ZK Vanity Address Generator, showcasing how ECIES with ZKP can be applied in real-world scenarios. The use case, Zanity, will also implement mining algorithm that will be benchmarked again Profanity v2 from 1Inch which was aimed at outsourcing vanity address generation safely.
 
-5. Standardization: By implementing multiple standards (different key lengths, curve types), the project aims to provide a flexible, standardized approach to ECIES in the Circom ecosystem.
+5. **Standardization**: By implementing multiple standards (different key lengths, curve types), the project aims to provide a flexible, standardized approach to ECIES in the Circom ecosystem.
 
-6. Security Focus: The project addresses specific security considerations, such as preventing key reuse through nullifier outputs, enhancing the overall security of ZKP applications using this implementation.
+6. **Security Focus**: The project addresses specific security considerations, such as preventing key reuse through nullifier outputs, enhancing the overall security of ZKP applications using this implementation.
 
 These contributions fill significant gaps in the Circom ecosystem, providing developers with powerful tools for implementing secure, provable encryption in decentralized applications. This can enable new use cases in areas like private auctions, secure bridges between chains, and other scenarios requiring verifiable yet confidential data exchange.
 
