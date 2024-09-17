@@ -8,7 +8,7 @@
 
 - **Payment Details:** 0xdbA5E670EC1575EefAE0653Bbb1bba0Eb096488b
 
-- **Total Amount Requested:** 5000 USDC
+- **Total Amount Requested:** 7500 USDC
 
 ## [Section 2] Project Overview :page_facing_up:
 
