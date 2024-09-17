@@ -4,7 +4,7 @@
 
 - **Project Name:** Circom-native ECIES Implementation
 
-- **Payment Details:** 0xdbA5E670EC1575EefAE0653Bbb1bba0Eb096488b
+- **Payment Details:** 0xdbA5E670EC1575EefAE0653Bbb1bba0Eb096488b on Polygon
 
 - **Total Amount Requested:** 7500 USDC
 
