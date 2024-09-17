@@ -10,7 +10,7 @@
 
 - **Total Amount Requested:** 5000 USDC
 
-## [Section 2] Project Overview
+## [Section 2] Project Overview :page_facing_up:
 
 - **Brief Description:**
 
@@ -35,7 +35,7 @@ The project aims to optimize the ECIES implementation for decentralized environm
 - **Design/SPEC:**
   https://hackmd.io/zGQFexzNR-2T4sW_trO8AQ : contains a detailed explanation and implementation procedure.
 
-##[Section 3] Ecosystem Fit
+## [Section 3] Ecosystem Fit
 
 This project brings several unique contributions to the Circom ecosystem:
 
