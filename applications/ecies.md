@@ -107,7 +107,7 @@ Website: https://crema.sh/
   - Writing circuits for the vanity address verification. (1000 USDC)
   - Smart contracts that make use of the circuits and a deployed frontend for the vanity address generation so that users can play around. (1000 USDC)
 
-### Total Costs: (e.g. 4,500+3,000 = 7,000 USDC)
+### Total Costs: (e.g. 4,500+3,000 = 7,500 USDC)
 
 ## [Section 6] Extended Scope
 
