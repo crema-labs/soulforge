@@ -1,6 +1,4 @@
-# [Project Name]
-
-> **Note:** This document will be part of the grant agreement. Ensure that all sections are completed accurately. Please use **markdown** format and **delete all instructional notes** before submitting.
+# [ECIES Circom]
 
 ## [Section 1] Project Information
 
