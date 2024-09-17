@@ -77,9 +77,9 @@ These contributions fill significant gaps in the Circom ecosystem, providing dev
 - Implemented [hmac with sha256](https://github.com/crema-labs/hmac-circom) in circom
 - Implemented [Circom ASN.1 Parser](https://github.com/zkemail/asn1-parser-circom)
 
-Github : https://github.com/crema-labs
-Blog : https://blog.crema.sh
-Website: https://crema.sh/
+- Github : https://github.com/crema-labs
+- Blog : https://blog.crema.sh
+- Website: https://crema.sh/
 
 ## [Section 5] Development Roadmap :open_book:
 
