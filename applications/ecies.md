@@ -1,4 +1,4 @@
-# [ECIES Circom]
+# [ECIES Implementation in Circom]
 
 ## [Section 1] Project Information
 
@@ -10,28 +10,32 @@
 
 ## [Section 2] Project Overview :page_facing_up:
 
-- **Brief Description:**
+### **Brief Description:**
 
 The Elliptic Curve Integrated Encryption Scheme (ECIES) is a hybrid encryption scheme that combines ECC-based asymmetric cryptography with symmetric ciphers to provide data encryption. It uses a public key and a secret random scalar for encryption, and the corresponding EC private key and public representation of the secret random scalar for decryption. A Message Authentication Code (MAC) is included to ensure the integrity of the encrypted message.
 
 The project aims to optimize the ECIES implementation for decentralized environments, improving user experience in scenarios like marketplaces, auctions, and secure data exchange. It also addresses deadlock situations in information sharing by using ZKP to incentivize secure message sharing.
 
-- **Core Idea:**
-  The primary goal is to implement a production-grade ECIES encryption scheme with Zero-Knowledge Proofs (ZKP) in Circom, optimized to reduce the number of constraints and operations. This eliminates the need for a separate key exchange protocol, requiring only the recipient's public key for message encryption. The addition of ZKP allows proving that the message is encrypted using the recipient's public key and meets predefined requirements without revealing the content.
+### **Core Idea:**
 
-- **Technology Stack:**
-  Circom (for circuits)
-  Circomkit (ts based testing framework)
-  Golang (POC's for individual components)
+The primary goal is to implement a production-grade ECIES encryption scheme with Zero-Knowledge Proofs (ZKP) in Circom, optimized to reduce the number of constraints and operations. This eliminates the need for a separate key exchange protocol, requiring only the recipient's public key for message encryption. The addition of ZKP allows proving that the message is encrypted using the recipient's public key and meets predefined requirements without revealing the content.
 
-- **Key Components:**
-  HMAC implementation with SHA-256
-  Key Derivation Function (HKDF with SHA-256)
-  AES-CTR implementation
-  ECC operations (scalar multiplication)
+### **Technology Stack:**
 
-- **Design/SPEC:**
-  https://hackmd.io/zGQFexzNR-2T4sW_trO8AQ : contains a detailed explanation and implementation procedure.
+- Circom (for circuits)
+- Circomkit (ts based testing framework)
+- Golang (POC's for individual components)
+
+### **Key Components:**
+
+- HMAC implementation with SHA-256
+- Key Derivation Function (HKDF with SHA-256)
+- AES-CTR implementation
+- ECC operations (scalar multiplication)
+
+### **Design/SPEC:**
+
+https://hackmd.io/zGQFexzNR-2T4sW_trO8AQ : contains a detailed explanation and implementation procedure.
 
 ## [Section 3] Ecosystem Fit
 
@@ -53,24 +57,25 @@ These contributions fill significant gaps in the Circom ecosystem, providing dev
 
 ## [Section 4] Team :busts_in_silhouette:
 
-- Team Members:
+### **Team Members:**
 
-- **Team Members:**
+- [0xVikasRushi](https://github.com/0xvikasrushi)
+- [Ayman](https://github.com/nesopie)
+- [yash1io](https://github.com/yash1io)
 
-[0xVikasRushi](https://github.com/0xvikasrushi), [Ayman](https://github.com/nesopie), [yash1io](https://github.com/yash1io)
-
-- **Contact Information:**
+### **Contact Information:**
 
 - **Name:** Ayman
 - **Email:** aymanshaik1015@gmail.com
 - **Discord**: nesopie
 
-- **Prior Work/Research (Optional):**
-  - Implemented [ECDSA secp384r1](https://github.com/crema-labs/ecdsa-p384-circom)
-  - Implemented [Generic AES Circom](https://github.com/crema-labs/aes-circom)
-  - Implemented First AES Circom [CTR Mode](https://github.com/crema-labs/aes-circom/blob/main/circuits/ctr.circom)
-  - Implemented [hmac with sha256](https://github.com/crema-labs/hmac-circom) in circom
-  - Implemented [Circom ASN.1 Parser](https://github.com/zkemail/asn1-parser-circom)
+### **Prior Work/Research (Optional):**
+
+- Implemented [ECDSA secp384r1](https://github.com/crema-labs/ecdsa-p384-circom)
+- Implemented [Generic AES Circom](https://github.com/crema-labs/aes-circom)
+- Implemented First AES Circom [CTR Mode](https://github.com/crema-labs/aes-circom/blob/main/circuits/ctr.circom)
+- Implemented [hmac with sha256](https://github.com/crema-labs/hmac-circom) in circom
+- Implemented [Circom ASN.1 Parser](https://github.com/zkemail/asn1-parser-circom)
 
 Github : https://github.com/crema-labs
 Blog : https://blog.crema.sh
